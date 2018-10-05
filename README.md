@@ -8,7 +8,7 @@ In this lab, we will practice defining classes and instance methods. We will als
 
 * Practice defining classes and instantiating instances of those classes
 * Practice defining instance methods
-* Use properties and decorators properly
+
 
 ## Defining Classes and Instance Methods
 
