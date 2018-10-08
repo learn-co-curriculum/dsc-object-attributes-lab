@@ -1,14 +1,15 @@
 
-# Python Object Attributes Lab
+# Object Attributes - Lab
 
 ## Introduction
 In this lab, we will practice defining classes and instance methods. We will also practice working with getter and setter (read and write) methods using properties and decorators to operate on instance variables.
 
 ## Objectives
 
+You will be able to:
+
 * Practice defining classes and instantiating instances of those classes
 * Practice defining instance methods
-
 
 ## Defining Classes and Instance Methods
 
