@@ -22,6 +22,15 @@ For this class, create a method called `greet_passenger`, which returns the stri
 # Define Driver Class here with properties for each instance variable
 ```
 
+
+```python
+# __SOLUTION__ 
+# Define Driver Class here with properties for each instance variable
+class Driver():
+    def greet_passenger(self):
+        print("Hello! I'll be your driver today. My name is {} {}".format(self.first, self.last))
+```
+
 Great! Now create an instance of your driver class. Then, create the following attributes for your instance:
 * first - the first name of the driver. Set it to Matthew.
 * last - the last name of the driver. Set it to Mitchell.
@@ -35,11 +44,34 @@ Finally, use your `greet_passenger1` method for your Driver instance object.
 #Create an instance with the above 4 attributes and then call the greet_passenger method
 ```
 
+
+```python
+# __SOLUTION__ 
+driver = Driver()
+driver.first = "Matthew"
+driver.last = "Mitchell"
+driver.miles_driven = 100
+driver.rating = 4.9
+driver.greet_passenger() # Hello! I'll be your driver today. My name is Matthew Mitchell
+```
+
+    Hello! I'll be your driver today. My name is Matthew Mitchell
+
+
 Now, create a passenger class with one method `yell_name` which prints the passengers first and last name in all caps. (Again first and last will be stored as seperate attributes.)
 
 
 ```python
 # Define Passenger Class here with properties for each instance variable
+```
+
+
+```python
+# __SOLUTION__ 
+# Define Passenger Class here with properties for each instance variable
+class Passenger():
+    def yell_name(self):
+        print("{} {}".format(self.first.upper(), self.last.upper()))
 ```
 
 Create an instance of your passenger class. Then create an attribute "first" set to "Ron" and an attribute "last" set to "Burgundy". Then call the `yell_name` method.
@@ -48,6 +80,18 @@ Create an instance of your passenger class. Then create an attribute "first" set
 ```python
 #Create an instance of the passenger class with the first and last attributes. Then call the yell_name method
 ```
+
+
+```python
+# __SOLUTION__ 
+passenger = Passenger()
+passenger.first = "Ron"
+passenger.last = "Burgundy"
+passenger.yell_name() # "RON BURGUNDY"
+```
+
+    RON BURGUNDY
+
 
 Great work!
 
