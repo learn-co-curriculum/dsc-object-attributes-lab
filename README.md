@@ -8,8 +8,8 @@ In this lab, you'll practice defining classes and instance methods.
 
 You will be able to:
 
-* Practice defining classes and instantiating instances of those classes
-* Practice defining instance methods
+* Define and call an instance method
+* Define and access instance attributes
 
 ## Defining Classes and Instance Methods
 
